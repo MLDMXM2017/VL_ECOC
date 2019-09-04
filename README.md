@@ -1,4 +1,4 @@
-#VL_ECOC.py:
+VL_ECOC.py:
 
 The files contain the following functions:
 1) Distance calculation
