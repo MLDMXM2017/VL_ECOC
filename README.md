@@ -40,7 +40,7 @@ The results are stored in the result dictionary. The UCI datasets are available 
 
 
 The default demo will run 3 iterations for each datasets in the UCI_data dictionary. The result/zoo dictionary consist of all the results. The file description is as follows：
-	- accuracy.csv: The accuracy for each dataset and each iteration.
+- accuracy.csv: The accuracy for each dataset and each iteration.
 	- fscore.csv: The F-score for each dataset and each iteration.
 	- matthews.csv: The MCC for each dataset and each iteration.
 	- predict_time.csv: The predicted time for each dataset and each iteration.
