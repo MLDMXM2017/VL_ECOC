@@ -32,15 +32,15 @@ The files contain the following functions:
 		save_path:Result store path
 
 
-Execute the following command to run the demo:
+6) Execute the following command to run the demo:
 	python3.6 VL_ECOC.py
 
 
-The results are stored in the result dictionary. The UCI datasets are available in UCI_data dictionary. 
+7) The results are stored in the result dictionary. The UCI datasets are available in UCI_data dictionary. 
 
 
-The default demo will run 3 iterations for each datasets in the UCI_data dictionary. The result/zoo dictionary consist of all the results. The file description is as follows：
-- accuracy.csv: The accuracy for each dataset and each iteration.
+8) The default demo will run 3 iterations for each datasets in the UCI_data dictionary. The result/zoo dictionary consist of all the results. The file description is as follows：
+	- accuracy.csv: The accuracy for each dataset and each iteration.
 	- fscore.csv: The F-score for each dataset and each iteration.
 	- matthews.csv: The MCC for each dataset and each iteration.
 	- predict_time.csv: The predicted time for each dataset and each iteration.
@@ -61,9 +61,10 @@ The default demo will run 3 iterations for each datasets in the UCI_data diction
 	- Validation Test MCC.png: The trend of MCC on validation and test datasets.
 
 
-Environement:	- Linux Ubuntu 16.04; 
-		- Python3.6;
-		- Scikit-Learn 0.18; 
+9) Environement:	
+	- Linux Ubuntu 16.04; 
+	- Python3.6;
+	- Scikit-Learn 0.18; 
 
 This code is the source code of the paper:
 Kai-Jie Feng, Sze-Teng Liong, Kun-Hong Liu, The Design of Variable Length Based Coding Matrix for Improving Error Correcting Output Codes.
