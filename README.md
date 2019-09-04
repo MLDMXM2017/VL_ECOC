@@ -25,7 +25,7 @@ The files contain the following functions:
 		Result visualization function： visualization(self)
 		Storing evaluation result function： persistence_record(self)
 		
-4) runner function
+5) runner function
 	- Runner is a function used for final running, which mainly accepts the following parameters:
 		file_name:Data file name
 		data_path:Data storage path
@@ -40,30 +40,30 @@ The results are stored in the result dictionary. The UCI datasets are available 
 
 
 The default demo will run 3 iterations for each datasets in the UCI_data dictionary. The result/zoo dictionary consist of all the results. The file description is as follows：
-	accuracy.csv: The accuracy for each dataset and each iteration.
-	fscore.csv: The F-score for each dataset and each iteration.
-	matthews.csv: The MCC for each dataset and each iteration.
-	predict_time.csv: The predicted time for each dataset and each iteration.
-	train_time.csv: The training time for each dataset and each iteration.
-	zoo dictionary: The detail result for each iteration of zoo dataset.
-	matrix_record.json and Coding Matrix: The different matrix in the growth process.
-	Test Data Confusion Matrix: The different confusion matrix in the growth process on test dataset.
-	Train Data Confusion Matrix: The different confusion matrix in the growth process on train dataset.
-	Validate Data Confusion Matrix: The different confusion matrix in the growth process on validate dataset.
-	test_predicted_code_record.json: The predicted code in the growth process on test dataset.
-	test_predicted_label_record.json: The predicted label in the growth process on test dataset.
-	train_predicted_code_record.json: The predicted code in the growth process on train dataset.
-	train_predicted_label_record.json: The predicted label in the growth process on train dataset.
-	validate_predicted_code_record.json: The predicted code in the growth process on validate dataset.
-	validate_predicted_label_record.json: The predicted label in the growth process on validate dataset.
-	Validation Test Accuracy.png: The trend of accuracy on validation and test datasets.
-	Validation Test Fscore.png: The trend of F-score on validation and test datasets.
-	Validation Test MCC.png: The trend of MCC on validation and test datasets.
+	- accuracy.csv: The accuracy for each dataset and each iteration.
+	- fscore.csv: The F-score for each dataset and each iteration.
+	- matthews.csv: The MCC for each dataset and each iteration.
+	- predict_time.csv: The predicted time for each dataset and each iteration.
+	- train_time.csv: The training time for each dataset and each iteration.
+	- zoo dictionary: The detail result for each iteration of zoo dataset.
+	- matrix_record.json and Coding Matrix: The different matrix in the growth process.
+	- Test Data Confusion Matrix: The different confusion matrix in the growth process on test dataset.
+	- Train Data Confusion Matrix: The different confusion matrix in the growth process on train dataset.
+	- Validate Data Confusion Matrix: The different confusion matrix in the growth process on validate dataset.
+	- test_predicted_code_record.json: The predicted code in the growth process on test dataset.
+	- test_predicted_label_record.json: The predicted label in the growth process on test dataset.
+	- train_predicted_code_record.json: The predicted code in the growth process on train dataset.
+	- train_predicted_label_record.json: The predicted label in the growth process on train dataset.
+	- validate_predicted_code_record.json: The predicted code in the growth process on validate dataset.
+	- validate_predicted_label_record.json: The predicted label in the growth process on validate dataset.
+	- Validation Test Accuracy.png: The trend of accuracy on validation and test datasets.
+	- Validation Test Fscore.png: The trend of F-score on validation and test datasets.
+	- Validation Test MCC.png: The trend of MCC on validation and test datasets.
 
 
-Environement:	Linux Ubuntu 16.04; 
-		Python3.6;
-		Scikit-Learn 0.18; 
+Environement:	- Linux Ubuntu 16.04; 
+		- Python3.6;
+		- Scikit-Learn 0.18; 
 
 This code is the source code of the paper:
 Kai-Jie Feng, Sze-Teng Liong, Kun-Hong Liu, The Design of Variable Length Based Coding Matrix for Improving Error Correcting Output Codes.
